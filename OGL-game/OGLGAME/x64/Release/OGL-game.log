@@ -1,0 +1,127 @@
+﻿  stdafx.cpp
+  Camera.cpp
+  gamePanel.cpp
+c:\users\leoh\documents\github\oglgame\ogl-game\ogl-game\Math.h(6): warning C4005: 'M_PI': macro redefinition
+  c:\users\leoh\documents\github\opengl\vs-ogl\ogl-game\sdl2-2.0.5\include\SDL_stdinc.h(440): note: see previous definition of 'M_PI'
+  Loader.cpp
+Loader.cpp(24): warning C4267: 'argument': conversion from 'size_t' to 'const long', possible loss of data
+Loader.cpp(25): warning C4267: 'argument': conversion from 'size_t' to 'const long', possible loss of data
+Loader.cpp(27): warning C4267: 'argument': conversion from 'size_t' to 'const long', possible loss of data
+Loader.cpp(29): warning C4267: 'argument': conversion from 'size_t' to 'const long', possible loss of data
+Loader.cpp(101): warning C4267: 'argument': conversion from 'size_t' to 'GLsizei', possible loss of data
+Loader.cpp(102): warning C4267: 'argument': conversion from 'size_t' to 'GLsizei', possible loss of data
+Loader.cpp(103): warning C4267: 'argument': conversion from 'size_t' to 'GLsizei', possible loss of data
+  MasterRender.cpp
+  Math.cpp
+Math.cpp(8): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+  objLoader.cpp
+  OGL-game.cpp
+c:\users\leoh\documents\github\oglgame\ogl-game\ogl-game\Math.h(6): warning C4005: 'M_PI': macro redefinition
+  c:\users\leoh\documents\github\opengl\vs-ogl\ogl-game\sdl2-2.0.5\include\SDL_stdinc.h(440): note: see previous definition of 'M_PI'
+  Renderer.cpp
+  shaderProgramme.cpp
+  staticShader.cpp
+  Terrain.cpp
+C:\Users\LeoH\Documents\GitHub\OpenGL\VS-ogl\OGL-game\glew-2.0.0\include\GL/glew.h(270): error C2059: syntax error: 'string'
+C:\Users\LeoH\Documents\GitHub\OpenGL\VS-ogl\OGL-game\glew-2.0.0\include\GL/glew.h(270): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+c:\users\leoh\documents\github\opengl\vs-ogl\ogl-game\sdl2-2.0.5\include\SDL_platform.h(169): error C2059: syntax error: 'string'
+c:\users\leoh\documents\github\opengl\vs-ogl\ogl-game\sdl2-2.0.5\include\SDL_platform.h(169): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stddef.h(13): error C2059: syntax error: 'string'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stddef.h(13): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\stdarg.h(13): error C2059: syntax error: 'string'
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\stdarg.h(13): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+c:\users\leoh\documents\github\opengl\vs-ogl\ogl-game\sdl2-2.0.5\include\SDL_stdinc.h(302): error C2059: syntax error: 'string'
+c:\users\leoh\documents\github\opengl\vs-ogl\ogl-game\sdl2-2.0.5\include\SDL_stdinc.h(302): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+c:\users\leoh\documents\github\opengl\vs-ogl\ogl-game\sdl2-2.0.5\include\SDL_main.h(110): error C2059: syntax error: 'string'
+c:\users\leoh\documents\github\opengl\vs-ogl\ogl-game\sdl2-2.0.5\include\SDL_main.h(110): error C2238: unexpected token(s) preceding ';'
+c:\users\leoh\documents\github\opengl\vs-ogl\ogl-game\sdl2-2.0.5\include\SDL_main.h(115): error C2059: syntax error: 'string'
+c:\users\leoh\documents\github\opengl\vs-ogl\ogl-game\sdl2-2.0.5\include\SDL_main.h(115): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+c:\users\leoh\documents\github\opengl\vs-ogl\ogl-game\sdl2-2.0.5\include\SDL_assert.h(30): error C2059: syntax error: 'string'
+c:\users\leoh\documents\github\opengl\vs-ogl\ogl-game\sdl2-2.0.5\include\SDL_assert.h(30): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+c:\users\leoh\documents\github\opengl\vs-ogl\ogl-game\sdl2-2.0.5\include\SDL_atomic.h(69): error C2059: syntax error: 'string'
+c:\users\leoh\documents\github\opengl\vs-ogl\ogl-game\sdl2-2.0.5\include\SDL_atomic.h(69): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+c:\users\leoh\documents\github\opengl\vs-ogl\ogl-game\sdl2-2.0.5\include\SDL_atomic.h(123): warning C4164: '_ReadWriteBarrier': intrinsic function not declared
+c:\users\leoh\documents\github\opengl\vs-ogl\ogl-game\sdl2-2.0.5\include\SDL_error.h(36): error C2059: syntax error: 'string'
+c:\users\leoh\documents\github\opengl\vs-ogl\ogl-game\sdl2-2.0.5\include\SDL_error.h(36): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+c:\users\leoh\documents\github\opengl\vs-ogl\ogl-game\sdl2-2.0.5\include\SDL_endian.h(62): error C2059: syntax error: 'string'
+c:\users\leoh\documents\github\opengl\vs-ogl\ogl-game\sdl2-2.0.5\include\SDL_endian.h(62): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+c:\users\leoh\documents\github\opengl\vs-ogl\ogl-game\sdl2-2.0.5\include\SDL_mutex.h(37): error C2059: syntax error: 'string'
+c:\users\leoh\documents\github\opengl\vs-ogl\ogl-game\sdl2-2.0.5\include\SDL_mutex.h(37): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+c:\users\leoh\documents\github\opengl\vs-ogl\ogl-game\sdl2-2.0.5\include\SDL_thread.h(41): error C2059: syntax error: 'string'
+c:\users\leoh\documents\github\opengl\vs-ogl\ogl-game\sdl2-2.0.5\include\SDL_thread.h(41): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+c:\users\leoh\documents\github\opengl\vs-ogl\ogl-game\sdl2-2.0.5\include\SDL_rwops.h(38): error C2059: syntax error: 'string'
+c:\users\leoh\documents\github\opengl\vs-ogl\ogl-game\sdl2-2.0.5\include\SDL_rwops.h(38): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+c:\users\leoh\documents\github\opengl\vs-ogl\ogl-game\sdl2-2.0.5\include\SDL_audio.h(41): error C2059: syntax error: 'string'
+c:\users\leoh\documents\github\opengl\vs-ogl\ogl-game\sdl2-2.0.5\include\SDL_audio.h(41): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+c:\users\leoh\documents\github\opengl\vs-ogl\ogl-game\sdl2-2.0.5\include\SDL_clipboard.h(36): error C2059: syntax error: 'string'
+c:\users\leoh\documents\github\opengl\vs-ogl\ogl-game\sdl2-2.0.5\include\SDL_clipboard.h(36): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\setjmp.h(21): error C2059: syntax error: 'string'
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\setjmp.h(21): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\mmintrin.h(29): error C2059: syntax error: 'string'
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\mmintrin.h(29): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\corecrt_malloc.h(13): error C2059: syntax error: 'string'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\corecrt_malloc.h(13): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\malloc.h(14): error C2059: syntax error: 'string'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\malloc.h(14): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\xmmintrin.h(188): error C2059: syntax error: 'string'
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\xmmintrin.h(188): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\emmintrin.h(69): error C2059: syntax error: 'string'
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\emmintrin.h(69): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\pmmintrin.h(58): error C2059: syntax error: 'string'
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\pmmintrin.h(58): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\tmmintrin.h(35): error C2059: syntax error: 'string'
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\tmmintrin.h(35): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\smmintrin.h(83): error C2059: syntax error: 'string'
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\smmintrin.h(83): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\nmmintrin.h(36): error C2059: syntax error: 'string'
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\nmmintrin.h(36): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\wmmintrin.h(35): error C2059: syntax error: 'string'
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\wmmintrin.h(35): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\immintrin.h(31): error C2059: syntax error: 'string'
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\immintrin.h(31): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\ammintrin.h(32): error C2059: syntax error: 'string'
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\ammintrin.h(32): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\intrin.h(44): error C2059: syntax error: 'string'
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\intrin.h(44): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+c:\users\leoh\documents\github\opengl\vs-ogl\ogl-game\sdl2-2.0.5\include\SDL_cpuinfo.h(69): error C2059: syntax error: 'string'
+c:\users\leoh\documents\github\opengl\vs-ogl\ogl-game\sdl2-2.0.5\include\SDL_cpuinfo.h(69): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+c:\users\leoh\documents\github\opengl\vs-ogl\ogl-game\sdl2-2.0.5\include\SDL_pixels.h(37): error C2059: syntax error: 'string'
+c:\users\leoh\documents\github\opengl\vs-ogl\ogl-game\sdl2-2.0.5\include\SDL_pixels.h(37): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+c:\users\leoh\documents\github\opengl\vs-ogl\ogl-game\sdl2-2.0.5\include\SDL_rect.h(39): error C2059: syntax error: 'string'
+c:\users\leoh\documents\github\opengl\vs-ogl\ogl-game\sdl2-2.0.5\include\SDL_rect.h(39): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+c:\users\leoh\documents\github\opengl\vs-ogl\ogl-game\sdl2-2.0.5\include\SDL_blendmode.h(34): error C2059: syntax error: 'string'
+c:\users\leoh\documents\github\opengl\vs-ogl\ogl-game\sdl2-2.0.5\include\SDL_blendmode.h(34): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+c:\users\leoh\documents\github\opengl\vs-ogl\ogl-game\sdl2-2.0.5\include\SDL_surface.h(40): error C2059: syntax error: 'string'
+c:\users\leoh\documents\github\opengl\vs-ogl\ogl-game\sdl2-2.0.5\include\SDL_surface.h(40): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+c:\users\leoh\documents\github\opengl\vs-ogl\ogl-game\sdl2-2.0.5\include\SDL_video.h(39): error C2059: syntax error: 'string'
+c:\users\leoh\documents\github\opengl\vs-ogl\ogl-game\sdl2-2.0.5\include\SDL_video.h(39): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+c:\users\leoh\documents\github\opengl\vs-ogl\ogl-game\sdl2-2.0.5\include\SDL_keyboard.h(39): error C2059: syntax error: 'string'
+c:\users\leoh\documents\github\opengl\vs-ogl\ogl-game\sdl2-2.0.5\include\SDL_keyboard.h(39): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+c:\users\leoh\documents\github\opengl\vs-ogl\ogl-game\sdl2-2.0.5\include\SDL_mouse.h(38): error C2059: syntax error: 'string'
+c:\users\leoh\documents\github\opengl\vs-ogl\ogl-game\sdl2-2.0.5\include\SDL_mouse.h(38): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+c:\users\leoh\documents\github\opengl\vs-ogl\ogl-game\sdl2-2.0.5\include\SDL_joystick.h(48): error C2059: syntax error: 'string'
+c:\users\leoh\documents\github\opengl\vs-ogl\ogl-game\sdl2-2.0.5\include\SDL_joystick.h(48): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+c:\users\leoh\documents\github\opengl\vs-ogl\ogl-game\sdl2-2.0.5\include\SDL_gamecontroller.h(39): error C2059: syntax error: 'string'
+c:\users\leoh\documents\github\opengl\vs-ogl\ogl-game\sdl2-2.0.5\include\SDL_gamecontroller.h(39): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+c:\users\leoh\documents\github\opengl\vs-ogl\ogl-game\sdl2-2.0.5\include\SDL_touch.h(38): error C2059: syntax error: 'string'
+c:\users\leoh\documents\github\opengl\vs-ogl\ogl-game\sdl2-2.0.5\include\SDL_touch.h(38): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+c:\users\leoh\documents\github\opengl\vs-ogl\ogl-game\sdl2-2.0.5\include\SDL_gesture.h(41): error C2059: syntax error: 'string'
+c:\users\leoh\documents\github\opengl\vs-ogl\ogl-game\sdl2-2.0.5\include\SDL_gesture.h(41): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+c:\users\leoh\documents\github\opengl\vs-ogl\ogl-game\sdl2-2.0.5\include\SDL_events.h(45): error C2059: syntax error: 'string'
+c:\users\leoh\documents\github\opengl\vs-ogl\ogl-game\sdl2-2.0.5\include\SDL_events.h(45): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+c:\users\leoh\documents\github\opengl\vs-ogl\ogl-game\sdl2-2.0.5\include\SDL_filesystem.h(37): error C2059: syntax error: 'string'
+c:\users\leoh\documents\github\opengl\vs-ogl\ogl-game\sdl2-2.0.5\include\SDL_filesystem.h(37): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+c:\users\leoh\documents\github\opengl\vs-ogl\ogl-game\sdl2-2.0.5\include\SDL_haptic.h(117): error C2059: syntax error: 'string'
+c:\users\leoh\documents\github\opengl\vs-ogl\ogl-game\sdl2-2.0.5\include\SDL_haptic.h(117): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+c:\users\leoh\documents\github\opengl\vs-ogl\ogl-game\sdl2-2.0.5\include\SDL_hints.h(47): error C2059: syntax error: 'string'
+c:\users\leoh\documents\github\opengl\vs-ogl\ogl-game\sdl2-2.0.5\include\SDL_hints.h(47): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+c:\users\leoh\documents\github\opengl\vs-ogl\ogl-game\sdl2-2.0.5\include\SDL_loadso.h(50): error C2059: syntax error: 'string'
+c:\users\leoh\documents\github\opengl\vs-ogl\ogl-game\sdl2-2.0.5\include\SDL_loadso.h(50): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+c:\users\leoh\documents\github\opengl\vs-ogl\ogl-game\sdl2-2.0.5\include\SDL_log.h(45): error C2059: syntax error: 'string'
+c:\users\leoh\documents\github\opengl\vs-ogl\ogl-game\sdl2-2.0.5\include\SDL_log.h(45): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+c:\users\leoh\documents\github\opengl\vs-ogl\ogl-game\sdl2-2.0.5\include\SDL_messagebox.h(31): error C2059: syntax error: 'string'
+c:\users\leoh\documents\github\opengl\vs-ogl\ogl-game\sdl2-2.0.5\include\SDL_messagebox.h(31): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+c:\users\leoh\documents\github\opengl\vs-ogl\ogl-game\sdl2-2.0.5\include\SDL_power.h(36): error C2059: syntax error: 'string'
+c:\users\leoh\documents\github\opengl\vs-ogl\ogl-game\sdl2-2.0.5\include\SDL_power.h(36): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+c:\users\leoh\documents\github\opengl\vs-ogl\ogl-game\sdl2-2.0.5\include\SDL_render.h(58): error C2059: syntax error: 'string'
+c:\users\leoh\documents\github\opengl\vs-ogl\ogl-game\sdl2-2.0.5\include\SDL_render.h(58): fatal error C1003: error count exceeds 100; stopping compilation
