@@ -3,7 +3,7 @@
 
 
 
-Renderer::Renderer(staticShader * shader)
+EntityRenderer::EntityRenderer(staticShader * shader)
 {
 	
 	glEnable(GL_CULL_FACE);
@@ -44,7 +44,7 @@ void Renderer::renderOld(Entity myEntity, staticShader * Shader,Camera camera) {
 }
  Old Render Method
  */
-void Renderer::createProjectionMatrix(){
+void EntityRenderer::createProjectionMatrix(){
 	projectionMatrix = glm::perspectiveFov((float)FOV,// FOV
 		(float)ScreenWidth,
 		(float)ScreenHeight,
@@ -53,7 +53,7 @@ void Renderer::createProjectionMatrix(){
 	
 }
 
-void Renderer::preparedTexturedModel(texturedModel model){
+void EntityRenderer::preparedTexturedModel(texturedModel model){
 	RawModel modelraw = model.getModel();
 	modelTexture bob = model.getTexture();
 	glBindVertexArray(modelraw.getvaoid());
@@ -69,7 +69,7 @@ void Renderer::preparedTexturedModel(texturedModel model){
 
 }
 
-void Renderer::render(std::map<texturedModel, std::vector<Entity> *> entities) {
+void EntityRenderer::render(std::map<texturedModel, std::vector<Entity> *> entities) {
 	for (std::map<texturedModel, std::vector<Entity>*>::iterator ii = entities.begin(); ii != entities.end(); ++ii) {
 		texturedModel gmodel = (*ii).first;
 		preparedTexturedModel(gmodel);
@@ -85,20 +85,20 @@ void Renderer::render(std::map<texturedModel, std::vector<Entity> *> entities) {
 
 }
 
-void Renderer::unbindTexturedModel(){
+void EntityRenderer::unbindTexturedModel(){
 	glDisableVertexAttribArray(2);
 	glDisableVertexAttribArray(1);
 	glDisableVertexAttribArray(0);
 	glBindVertexArray(0);
 
 }
-void Renderer::prepareInstance(Entity entity){
+void EntityRenderer::prepareInstance(Entity entity){
 	glm::mat4 Matrix = Math::CreateTransformationMatrix(entity.getPos(), entity.getRotx(), entity.getRoty(), entity.getRotz(), entity.getScale());
 
 	localShader->loadTransformationMatrix(Matrix);
 
 }
 
-Renderer::~Renderer()
+EntityRenderer::~EntityRenderer()
 {
 }

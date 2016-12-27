@@ -43,12 +43,12 @@
   </ImportGroup>
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
-    <IncludePath>C:\Users\LeoH\Documents\GitHub\OpenGL\VS-ogl\OGL-game\OGL-game\glm;C:\Users\LeoH\Documents\GitHub\OpenGL\VS-ogl\OGL-game\SDL2-2.0.5\include;C:\Users\LeoH\Documents\GitHub\OpenGL\VS-ogl\OGL-game\glew-2.0.0\include;$(IncludePath)</IncludePath>
-    <LibraryPath>C:\Users\LeoH\Documents\GitHub\OpenGL\VS-ogl\OGL-game\glew-2.0.0\lib\Release\x64;C:\Users\LeoH\Documents\GitHub\OpenGL\VS-ogl\OGL-game\SDL2-2.0.5\lib\x64;$(LibraryPath)</LibraryPath>
+    <IncludePath>C:\Users\LeoH\Documents\GitHub\OglGame\OGL-game\OGL-game\glm;C:\Users\LeoH\Documents\GitHub\OglGame\OGL-game\SDL2-2.0.5\include;C:\Users\LeoH\Documents\GitHub\OglGame\OGL-game\glew-2.0.0\include;$(IncludePath)</IncludePath>
+    <LibraryPath>C:\Users\LeoH\Documents\GitHub\OglGame\OGL-game\glew-2.0.0\lib\Release\x64;C:\Users\LeoH\Documents\GitHub\OglGame\OGL-game\SDL2-2.0.5\lib\x64;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
-    <IncludePath>C:\Users\LeoH\Documents\GitHub\OpenGL\VS-ogl\OGL-game\OGL-game\glm;C:\Users\LeoH\Documents\GitHub\OpenGL\VS-ogl\OGL-game\SDL2-2.0.5\include;C:\Users\LeoH\Documents\GitHub\OpenGL\VS-ogl\OGL-game\glew-2.0.0\include;$(IncludePath)</IncludePath>
-    <LibraryPath>C:\Users\LeoH\Documents\GitHub\OpenGL\VS-ogl\OGL-game\glew-2.0.0\lib\Release\x64;C:\Users\LeoH\Documents\GitHub\OpenGL\VS-ogl\OGL-game\SDL2-2.0.5\lib\x64;$(LibraryPath)</LibraryPath>
+    <IncludePath>C:\Users\LeoH\Documents\GitHub\OglGame\OGL-game\OGL-game\glm;C:\Users\LeoH\Documents\GitHub\OglGame\OGL-game\SDL2-2.0.5\include;C:\Users\LeoH\Documents\GitHub\OglGame\OGL-game\glew-2.0.0\include;$(IncludePath)</IncludePath>
+    <LibraryPath>C:\Users\LeoH\Documents\GitHub\OglGame\OGL-game\glew-2.0.0\lib\Release\x64;C:\Users\LeoH\Documents\GitHub\OglGame\OGL-game\SDL2-2.0.5\lib\x64;$(LibraryPath)</LibraryPath>
     <ReferencePath>C:\Users\LeoH\Documents\GitHub\OpenGL\VS-ogl\OGL-game\glew-2.0.0\include;C:\Users\LeoH\Documents\GitHub\OpenGL\VS-ogl\OGL-game\SDL2-2.0.5\include;$(ReferencePath)</ReferencePath>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
@@ -104,6 +104,7 @@
     <ClInclude Include="staticShader.h" />
     <ClInclude Include="stdafx.h" />
     <ClInclude Include="targetver.h" />
+    <ClInclude Include="Terrain.h" />
     <ClInclude Include="texturedModel.h" />
   </ItemGroup>
   <ItemGroup>
@@ -121,6 +122,7 @@
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
     </ClCompile>
+    <ClCompile Include="Terrain.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

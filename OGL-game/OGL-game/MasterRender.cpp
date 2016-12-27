@@ -4,12 +4,12 @@
 
 MasterRender::MasterRender()
 {
-	myRender = new Renderer(&shader);
+	myRender = new EntityRenderer(&shader);
 
 }
 
 void MasterRender::Render(Light &sun, Camera &camera) {
-	myRender->prepare();
+	prepare();
 	shader.start();
 	shader.loadLight(sun);
 	shader.loadViewMatrix(camera);
